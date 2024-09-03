@@ -22,7 +22,7 @@ class MainActivity2 : AppCompatActivity() {
     lateinit var tboxAuthor : TextView
 
     val client = OkHttpClient()
-    val key = "NMFPb48qfgP0NrLtBDVGAA==nHn7ejgJvZ48XuTC"
+    val key = "api-key-goes-here"
     val request = Request.Builder()
         .url("https://api.api-ninjas.com/v1/quotes")
         .get()
