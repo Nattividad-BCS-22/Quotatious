@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#405347"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/image_2024_09_01_140100139"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            app:tint="@color/white"
+            android:src="@drawable/image_2024_09_01_140111552" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round"
+            android:backgroundTint="#667760"
+            android:elevation="23dp"
+            android:text="@string/enter"
+            android:textColor="#92aa8a"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
